@@ -1,0 +1,15 @@
+[14-Dec-2022 17:00:02 UTC] PHP Warning:  Undefined array key "log_path" in /home/u1681554/public_html/system/core/Log.php on line 127
+[14-Dec-2022 17:00:02 UTC] PHP Warning:  Undefined array key "log_path" in /home/u1681554/public_html/system/core/Log.php on line 127
+[14-Dec-2022 17:00:02 UTC] PHP Warning:  mkdir(): Invalid path in /home/u1681554/public_html/system/core/Log.php on line 131
+[14-Dec-2022 17:00:02 UTC] PHP Warning:  Undefined array key "log_threshold" in /home/u1681554/public_html/system/core/Log.php on line 138
+[14-Dec-2022 17:00:02 UTC] PHP Warning:  Undefined array key "log_threshold" in /home/u1681554/public_html/system/core/Log.php on line 142
+[14-Dec-2022 17:01:01 UTC] PHP Warning:  Undefined array key "log_path" in /home/u1681554/public_html/system/core/Log.php on line 127
+[14-Dec-2022 17:01:01 UTC] PHP Warning:  Undefined array key "log_path" in /home/u1681554/public_html/system/core/Log.php on line 127
+[14-Dec-2022 17:01:01 UTC] PHP Warning:  mkdir(): Invalid path in /home/u1681554/public_html/system/core/Log.php on line 131
+[14-Dec-2022 17:01:01 UTC] PHP Warning:  Undefined array key "log_threshold" in /home/u1681554/public_html/system/core/Log.php on line 138
+[14-Dec-2022 17:01:01 UTC] PHP Warning:  Undefined array key "log_threshold" in /home/u1681554/public_html/system/core/Log.php on line 142
+[14-Dec-2022 17:02:02 UTC] PHP Warning:  Undefined array key "log_path" in /home/u1681554/public_html/system/core/Log.php on line 127
+[14-Dec-2022 17:02:02 UTC] PHP Warning:  Undefined array key "log_path" in /home/u1681554/public_html/system/core/Log.php on line 127
+[14-Dec-2022 17:02:02 UTC] PHP Warning:  mkdir(): Invalid path in /home/u1681554/public_html/system/core/Log.php on line 131
+[14-Dec-2022 17:02:02 UTC] PHP Warning:  Undefined array key "log_threshold" in /home/u1681554/public_html/system/core/Log.php on line 138
+[14-Dec-2022 17:02:02 UTC] PHP Warning:  Undefined array key "log_threshold" in /home/u1681554/public_html/system/core/Log.php on line 142

@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+   body {
+      background-color: white;
+      overflow-x: hidden;
+   }
+   .carousel-banner{
+      width: 1150px;
+      height: 400px;
+      margin: auto;
+      box-shadow: 0px 0px 10px 0px #333333;
+   
+   }
+   .carousel-image {
+      height: 400px;
+      /* background-position: center; */
+      background-size: cover;
+      /* object-fit: cover; */
+   }
+   .carousel-control-prev {
+      margin-left: -120px;
+    }
+   .carousel-control-next {
+       margin-right: -120px;
+      }
+     
+  
+    .navbar {
+      font-family: 'Oswald', sans-serif;
+      font-size: 18px;
+   }
+   
+   .navbar .navbar-nav .nav-item:hover {
+      color: rgb(6, 162, 201);
+   }
+   
+   .carousel-inner{
+      position: relative;
+   }
+   .carousel-image{
+      width: 100%
+   }
+   .carousel-inner .carousel-caption {
+      position: absolute;
+      top: 0;
+      right: 0;
+      text-align: left;
+      width: 28%;
+      margin-left: 600px;
+      padding-top: 100px;
+      font-family: 'Oswald', sans-serif;
+   }
+   
+   .btn-carousel {
+      border-radius: 20px !important;
+      width: 160px;
+   }
+ 
+   .head {
+      font-family: 'Francois One', sans-serif;
+      font-size: 36px;
+   }
+   .content-home{
+      background-color: rgba(126, 126, 126, 0.103);
+      /* border: 1px solid; */
+      padding-top:25px;
+      border-radius: 5px;
+   }
+   .content-header{
+      display: flex;
+      justify-content: space-between;
+      /* background-color: #1e7cb359; */
+      border-bottom:1px solid grey;
+      /* border-radius: 5px; */
+      margin-left: 25px;
+      margin-right: 25px;
+   }
+   .card-image-content{
+      height: 300px;
+      background-position: center;
+      background-size: cover;
+   }
+   .card-game:hover{
+      padding: 7px !important;
+      box-shadow: 0px 0px 10px 0px #bfbfbf;
+   }
+   /* .produk-description{
+      border: 1px solid black;
+   } */
+   .produk{
+      display: flex;
+      justify-content: space-between; 
+   }
+   .detail-produk{
+      margin-right: 400px !important;
+   }
+   /* 
+   hr {
+      border: 1px solid rgb(196, 196, 196);
+   }
+   
+   .price {
+      color: rgb(247, 161, 0) !important;
+   }  */
+   /* footer{
+      padding: 10px;
+      color: white;
+      background-color: #5c5a5a;
+   }
+   .container-footer{
+      
+      display: grid;
+      grid-template-areas: 'left-footer right-footer'
+                           'copy-right copy-right';
+      justify-items: center;
+      align-items: center;
+      gap: 25px;
+   }
+   .left-footer{
+      grid-area: left-footer;
+   }
+   .right-footer{
+      grid-area: right-footer;
+   }
+   .copy-right{
+      background-color: #333333;
+      grid-area: copy-right;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   } */
+
+   /* @media only screen and (max-width: 576px) {
+      .container-footer{
+         grid-template-areas:   'left-footer'
+                                'right-footer'
+                                'copy-right';
+      }
+    } */
+    .virtual-account{
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       gap: 15px;
+    }
+    .virtual-account li img {
+       height: 30px;
+       width: 70px;
+
+    }
+    .kebijakan-privasi{
+       margin-top: 50px;
+      margin-right: 50px;
+      margin-left: 120px;
+      margin-bottom: 50px;
+      padding: 20px;
+    }
+
+    @media (max-width: 576px) { 
+      .carousel-image {
+         height: 200px;
+         /* background-position: center; */
+         background-size: cover;
+         /* object-fit: cover; */
+      }
+      .carousel-control-prev {
+         display: none;
+       }
+      .carousel-control-next {
+          display: none;
+         }
+      .virtual-account{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 5px;
+         }
+         .produk{
+            display: grid;
+            grid-template-areas: 'image-detail'
+                                 'product-detail';
+         }
+         .image-produk{
+            grid-area: 'image-detail';
+            margin-left: -30px !important;
+         }
+         .image-detail-product{
+            width: 224px !important;
+            height: 300px;
+         }
+         .detail-produk{
+            grid-area: 'product-detail';
+         }
+    }
+    @media (max-width: 900px) { 
+      .carousel-banner{
+         width: 720px !important;
+         height: 260px;
+         margin: auto;
+         box-shadow: 0px 0px 10px 0px #333333;
+      
+      }
+      .carousel-image {
+         height: 260px;
+         /* background-position: center; */
+         background-size: cover;
+         /* object-fit: cover; */
+      }
+      .carousel-control-prev {
+         display: none;
+       }
+      .carousel-control-next {
+          display: none;
+         }
+          /* card-game{
+            margin:auto;
+            width:240px !important;
+         } */
+         .card-image-content{
+            width:100% !important;
+            height:100%!important;
+            background-size: cover;
+         }
+       .virtual-account{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 5px;
+         }
+    }
+
+
+
+
+
+
